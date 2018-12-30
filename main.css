@@ -1,0 +1,107 @@
+
+/* ==== basic settings ==== */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+main {
+  background-image: url(assets/freedom.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+li img {
+  height: 3.125rem;
+}
+
+/* ==== tagline ==== */
+
+.tagline-wrapper {
+  width: 90%;
+  padding-top: 3rem;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .tagline-wrapper {
+    padding-top: 2.0rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .tagline-wrapper {
+    padding-top: 3.5rem;
+  }
+}
+
+tagline {
+  display: block;
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  tagline {
+    font-size: 3rem;
+  }
+}
+
+.tagline-wrapper p {
+  display: block;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.3rem;
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .tagline-wrapper p {
+    font-size: 1.5rem;
+  }
+}
+
+/* ==== laguage selector ==== */
+
+.footer {
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  padding: 0 1.25rem;
+}
+
+/* ==== copíright ==== */
+
+.copyright {
+  font-family: Arial, sans-serif;
+  font-size: .9rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: inherit;
+  
+}
+
+.copyright a:hover {
+  color: #cccccc;
+}
